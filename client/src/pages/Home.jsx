@@ -1,14 +1,19 @@
-import React from "react";
 import Hero from "../components/home/Hero";
-import FeatureSection from "../components/home/FeatureSection";
-import AboutSection from "../components/home/AboutSection";
+import Feature from "../components/home/Feature";
+import About from "../components/home/About";
+import Testimonials from "../components/home/Testimonials";
+import CallToAction from "../components/home/CallToAction";
+import Footer from "../components/home/Footer";
 
 const Home = () => {
     return (
         <>
             <Hero />
-            <FeatureSection />
-            <AboutSection />
+            <Feature />
+            <About />
+            <Testimonials />
+            <CallToAction />
+            <Footer />
         </>
     );
 };
