@@ -16,7 +16,7 @@ const Hero = () => {
                 <nav className="z-50 flex items-center justify-between w-full py-6 px-6 md:px-16 lg:px-24 xl:px-40 text-sm">
                     <Link to="/" className="flex items-center justify-center">
                         {/* <img src={logo} alt="nav logo" height={50} width={50} /> */}
-                        <span className="font-bold text-4xl self-stretch leading-5 text-indigo-600">resume.</span>
+                        <span className="font-bold text-xl self-stretch leading-[18px] text-black">Resume <br />Craft <span className="text-indigo-600">AI</span></span>
                     </Link>
 
                     <div className="hidden md:flex items-center gap-8 transition duration-500 text-slate-800">

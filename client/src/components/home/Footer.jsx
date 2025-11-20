@@ -16,7 +16,7 @@ const Footer = () => {
                             </defs>
                         </svg>
                     </a> */}
-                    <span className="font-bold text-4xl leading-5 text-slate-900">resume<span className="text-indigo-600 font-bold">.</span></span>
+                    <span className="font-bold text-4xl leading-9 text-slate-900">Resume <br />Craft <span className="text-indigo-600 font-bold">AI</span></span>
                     <div>
                         <p className="text-slate-900 font-semibold">Product</p>
                         <ul className="mt-2 space-y-2">
