@@ -1,17 +1,14 @@
 import { SignOutButton } from "@clerk/clerk-react";
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Navbar from "../components/Dashboard/Navbar";
 
 const Dashboard = () => {
     return (
         <>
-            <div className="w-full h-full bg-slate-400">
-                <div>
-                    Dashboard Page
-                </div>
-                <SignOutButton redirectUrl="/">
-                    <button className="btn btn-primary">Sign Out</button>
-                </SignOutButton>
+            <Navbar />
+            <div className="bg-slate-300 min-h-screen">
+                
             </div>
 
 
